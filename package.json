@@ -1,6 +1,6 @@
 {
   "name": "inverse-slice",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Use just like slice/splice but it give inversed result",
   "main": "index.js",
   "scripts": {
