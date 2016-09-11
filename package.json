@@ -1,7 +1,7 @@
 {
   "name": "inverse-slice",
-  "version": "1.0.0",
-  "description": "Used to cut elements out of a array",
+  "version": "1.0.1",
+  "description": "Use just like slice/splice but it give inversed result",
   "main": "index.js",
   "scripts": {
     "test": "./node_modules/.bin/mocha --reporter spec"
