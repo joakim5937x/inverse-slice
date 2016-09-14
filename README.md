@@ -28,23 +28,6 @@ console.log(arr1)
 
 ```
 
-### Inverse splice (iSplice)
-
-``` js
-require('inverse-slice');
-
-let arr1 = [1,2,3,4,5,6,7];
-
-let start = 0;
-let end = 1;
-let arr2 = arr1.iSplice(start, end); // Inverse splice from start to end, will modify arr1
-console.log(arr2);
-// -> [2,3,4,5,6,7]
-console.log(arr1)
-// -> [1] modified
-
-```
-
 ## Api 
 
 Just use:
@@ -59,12 +42,3 @@ Will work with arrays and strings:
 Array.iSlice(start, end);
 String.iSlice(start, end);
 ```
-
-### Splice
-Will work with arrays:
-
-``` js
-Array.iSplice(start, end);
-
-```
-
